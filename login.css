@@ -1,0 +1,152 @@
+body {background-image: url('images/food-donation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Reset default margin and padding */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font properties */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* body{
+  background-color: rgba(75, 126, 171, 0.801);
+  font-family: 'Times New Roman', Times, serif;
+  margin: o;
+  padding: o;
+} */
+
+.container1{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #199cbd;
+}
+.custom-icon img{
+  border: 1px solid black;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+nav {
+  background-color: #199cbd;
+  padding: 20px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+nav ul li a:hover {
+  background-color: #000080;
+  text-decoration: underline;
+  text-decoration-color: bisque;
+}
+
+/* Set background and text colors */
+body.home {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Header style */
+header {
+  background-color: #17add2;
+  padding: 10px;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Logo style */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 20px 0;
+}
+
+/* Section style */
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container style */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Form style */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Footer style */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #5b5d5f;
+  color: #fff;
+}

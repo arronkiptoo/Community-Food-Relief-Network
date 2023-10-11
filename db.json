@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "@johndoeexample.com",
+      "password": "password123"
+    },
+    {
+      "name": "sam jad ",
+      "email": "ncsdj@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "sam jad ",
+      "email": "ncsdj@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "bett",
+      "email": "bett@gmail.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "bett",
+      "email": "bett@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "bett",
+      "email": "bett@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "bett",
+      "email": "ncsdj@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "name": "samkipp",
+      "email": "samidoh@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "damune",
+      "email": "langat10@gmail.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "name": "kiplimo",
+      "email": "kipp@gmail.com",
+      "password": "1234",
+      "id": 10
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "password": "password123"
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "@johndoeexample.com",
+      "password": "password123"
+    }
+  ]
+}

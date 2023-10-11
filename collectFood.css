@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(75, 126, 171, 0.801);
+    font-family: 'Times New Roman', Times, serif;
+    margin: o;
+    padding: o;
+}
+
+.container1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #199cbd;
+}
+.custom-icon img{
+    border: 1px solid black;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+nav {
+    background-color: #199cbd;
+    padding: 20px;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+  }
+  
+  nav ul li {
+    margin-right: 40px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    
+  }
+  
+  nav ul li a:hover {
+    background-color: #000080;
+    text-decoration: underline;
+    text-decoration-color: bisque;
+  }
+  #pickup-form label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+#pickup-location {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 200px;
+}
+
+#pickup-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#pickup-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the map container */
+#live-map {
+    margin-top: 20px;
+    height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Make the map responsive */
+#live-map iframe {
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    background-color: #0269e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 200px;
+    height: 150px;
+}
