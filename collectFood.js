@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get the value of the entered pickup location
     let pickupLocation = document.getElementById('pickup-location').value;
 
-    // You can perform actions with the pickupLocation value here
     console.log('Pickup Location:', pickupLocation);
 
     //display an alert with the pickup location

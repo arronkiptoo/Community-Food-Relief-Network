@@ -1,5 +1,3 @@
-// JavaScript code for login and registration functionality
-
 function login(event) {
     event.preventDefault(); // Prevent form submission
   
@@ -46,7 +44,7 @@ function login(event) {
     var password = document.getElementById('signupPassword').value;
   
     // Send registration request to the API
-    var url = 'http://localhost:3000/users'; // Replace with the actual API endpoint for signup
+    var url = 'http://localhost:3000/users';
     var data = {
       name: name,
       email: email,
