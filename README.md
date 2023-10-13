@@ -34,6 +34,9 @@ git commit -m "initial commit"
 git push origin master
 
 run the project on localhost to preview
+## Live Link
+
+https://arronkiptoo.github.io/Community-Food-Relief-Network/
 
 ## Technologies used
 HTML
